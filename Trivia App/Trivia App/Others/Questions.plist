@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Question1</key>
+	<dict>
+		<key>Question</key>
+		<string>Who is the best cricketer in the world?</string>
+		<key>Options</key>
+		<array>
+			<string>Sachin Tendulkar</string>
+			<string>Virat Kolli</string>
+			<string>Adam Gilchirst</string>
+			<string>Jacques Kallis</string>
+		</array>
+	</dict>
+	<key>Question2</key>
+	<dict>
+		<key>Question</key>
+		<string>What are the colors in the Indian national flag?</string>
+		<key>Options</key>
+		<array>
+			<string>White</string>
+			<string>Yellow</string>
+			<string>Orange</string>
+			<string>Green</string>
+		</array>
+	</dict>
+</dict>
+</plist>

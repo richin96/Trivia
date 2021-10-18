@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19206" systemVersion="20F71" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="QAnswer" representedClassName="QAnswer" syncable="YES" codeGenerationType="class">
+        <attribute name="answer" optional="YES" attributeType="String"/>
+        <attribute name="questionId" optional="YES" attributeType="String"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="qAnswer" inverseEntity="User"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES" codeGenerationType="class">
+        <attribute name="createdDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="userName" optional="YES" attributeType="String"/>
+        <relationship name="qAnswer" optional="YES" toMany="YES" minCount="1" maxCount="2" deletionRule="Cascade" destinationEntity="QAnswer" inverseName="user" inverseEntity="QAnswer"/>
+    </entity>
+    <elements>
+        <element name="User" positionX="-231.921875" positionY="1.8984375" width="128" height="73"/>
+        <element name="QAnswer" positionX="-32.48046875" positionY="2.73046875" width="128" height="73"/>
+    </elements>
+</model>
